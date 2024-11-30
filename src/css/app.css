@@ -1,0 +1,211 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+#app header {
+  position:relative;
+  z-index: 9999;
+}
+#app .container::-webkit-scrollbar {
+  display: none;
+}
+#app .root {
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+}
+#app .container {
+  width: 376px;
+  height: 600px;
+  z-index: 100;
+  overflow-y: scroll; /* Add the ability to scroll */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  background-color: aliceblue;
+  color:darkslategrey;
+}
+
+#app .container h1, #app .container h1 a {
+  color:darkslategrey;
+  font-size:22px;
+  text-decoration:none;
+}
+
+
+#app .container h4 {
+  color:darkslategrey;
+  font-size:18px;
+  font-weight:bolder;
+}
+
+#app .container h5 {
+  color:darkslategrey;
+  font-size:12px;
+
+}
+.button-container{
+  text-align:center;
+}
+.button-archive {
+  background-color:#efefef;
+  color:darkslategrey;
+  border:1px solid lightgray;
+  padding:5px 40px
+}
+.list-group-item{
+  background-color: aliceblue !important;
+}
+
+#app .container ul {
+  list-style-type: none;
+  padding:10px;
+}
+
+
+#app .container-view {
+  padding: 20px;
+}
+#app .container ul li {
+  position: relative;
+  border: none;
+  padding:0px;
+  
+}
+
+
+#app .container .date-time {
+  text-align:center;
+  height:50px;
+  padding-top:20px;
+  color: #a8a1a1;
+}
+
+
+#app .container ul li .list-item {
+  border:1px solid #ced0f3;
+  padding:10px 0 10px 0;
+  border-radius: 8px;
+  background:#fffcfc;
+}
+
+#app .container ul li span h5 {
+  font-size: 20px;
+}
+
+#app .container ul li span i::before {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 0px;
+  float: left;
+  background-color: #efefef;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#app .container ul li .time {
+  text-align: right;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  bottom:70px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color:navy;
+}
+
+.details {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border:1px solid #eeeeee;
+  position:relative;
+}
+
+.demo {
+  background-color: #eb0808;
+  border-radius: 50px;
+  border:1px solid #eeeeee;
+  width:30px;
+  height:30px;
+}
+
+.details i::before {
+  font-size: 25px;
+  background-color: #efefef;
+  padding: 15px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius: 30px;
+}
+.archived-form {
+  font-size:12px;
+  position:absolute;
+  right:0px;
+  width:150px;
+}
+.archived-form label {
+  display:inline-block;
+  line-height:30px;
+  text-align:right;
+  width:100px;
+}
+.archived-switch {
+  display:inline-block; 
+  font-size:14px;
+  position:absolute;
+  right:10px;
+  top:5px;
+}
+
+#app .footer {
+  height:60px;
+  box-shadow: 0px 0px 5px #ced0f3;
+  position: relative;
+  z-index:999;
+}
+
+#app .footer i { 
+  font-size: 25px;
+  position: relative;
+}
+#app .footer i::before {
+  color:darkslategrey;
+}
+.in-count {
+  background-color:orangered;
+  position: absolute;
+  font-size: 12px;
+  width:25px;
+  height:25px;
+  line-height: 25px;
+  border-radius: 40px;
+  top:-12px;
+  right:-15px;
+  color:#efefef;
+  font-weight: bold;
+  text-align:center;
+  vertical-align: middle;
+}
+
+#app .footer .col {
+  text-align:center;
+  padding-top:20px;
+  height:60px;
+}
+#app .footer .col { 
+  border-right:1px solid #efefef;
+}

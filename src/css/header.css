@@ -1,0 +1,27 @@
+header {
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+header svg {
+  display: block;
+  width: 50%; height: 50%;
+}
+
+.header-nav {
+  font-size:15px;
+text-align:center;
+}
+
+.header-nav a {
+  padding-bottom:20px;
+  color:darkslategrey;
+  text-decoration:none;
+}
+
+.header-nav .active {
+  border-bottom:3px solid orangered;
+}
